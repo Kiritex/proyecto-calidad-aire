@@ -19,7 +19,7 @@ El objetivo de este proyecto es crear un filtro de aire el cual tenga incorporad
 1. El Esp-32 activa el PMS7003 el cual se encarga de recibir el PM
 2. El PMS lee esos valores y los pasa al Esp
 3. Este los interpreta y los manda a la página web que se actializa cada 5 segundos
-4. Usando un umbral preciamente establecido podemos determinar si el aire se encuentra en buenas o malas condiciones (además de que cada nivel de PM cambia de color gracias al umbral)
+4. Usando un umbral previamente establecido podemos determinar si el aire se encuentra en buenas o malas condiciones (además de que cada nivel de PM cambia de color gracias al umbral)
 
 ## Posibles mejoras
 - Que los registros de PM se guarden en una base de datos
